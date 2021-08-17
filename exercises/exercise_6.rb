@@ -9,7 +9,6 @@ puts "Exercise 6"
 puts "----------"
 
 # Your code goes here ...
-puts @store3
 
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
 @store1.employees.create(first_name: "Edward", last_name: "Jason", hourly_rate: 65)
@@ -25,7 +24,7 @@ puts @store3
 @store2.employees.create(first_name: "Orange", last_name: "Jason", hourly_rate: 70)
 
 
-# puts Employee.first.inspect
-# puts Employee.first.store.inspect
+puts Employee.first.inspect
+puts Employee.first.store.inspect
 
 
